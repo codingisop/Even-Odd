@@ -1,0 +1,17 @@
+/*Checking if a Number is Even or Odd
+ without using '%' (modulo) Operator*/
+
+#include <iostream>
+#include <algorithm>       
+using namespace std;
+int main() {
+    int n;
+    cin >> n;
+    if(n & 1){    
+        cout << "Odd !" << endl;
+    }
+    else{
+        cout << "Even !" << endl;
+    }
+    return 0;
+}
